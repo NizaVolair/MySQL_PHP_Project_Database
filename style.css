@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+	font: normal 15px/1 "Lucida Sans Console", "Lucida Grande", sans-serif;
+	color: rgba(0,69,135,1);
+}
+
+table {
+    margin: 0 auto;
+	border: none;
+ }
+
+th {
+	font: normal 30px/1 "Lucida Sans Console", "Lucida Grande", sans-serif;
+	color: rgba(0,69,135,1);
+	text-align: center;
+	vertical-align: middle;
+	background-color: #b3c6ff;
+}
+
+td {
+	font: normal 15px/1 "Lucida Sans Console", "Lucida Grande", sans-serif;
+	color: rgba(0,69,135,1);
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(230,235,239,1);
+}
+
+h1 {
+	font: normal 40px/1 "Lucida Sans Console", "Lucida Grande", sans-serif;
+	color: rgba(0,69,135,1);
+}
+
+h2 {
+	font: normal 20px/1 "Lucida Sans Console", "Lucida Grande", sans-serif;
+	color: rgba(0,69,135,1);
+}
+
+fieldset{
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	background-color: #E5E1EB;	
+	border-style: none;
+	border-radius: 15px;
+}
+.subfield{
+	background-color: #CFCBD4;
+	font-style: italic;
+}
+
+.centered {
+	border-top: 25px solid rgba(255,255,255,1);
+	text-align: center;
+	border: none;
+}
+
+.button {
+	padding: 5px 10px;
+	border: none;
+	border-radius: 11px;
+	font: normal 12px/1 "Lucida Sans Console", "Lucida Grande", sans-serif;
+	color: rgba(230,235,239,1);
+	background: linear-gradient(163.300755766deg, rgba(208,228,247,1) 0, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%), rgba(76,138,196,1);
+}
+
+.button:hover {
+   background: linear-gradient(165.96375653207352deg, rgba(176,106,216,1) 0, rgba(127,18,170,1) 50%, rgba(179,105,219,1) 100%), #bc4ac9;
+}
+
+
